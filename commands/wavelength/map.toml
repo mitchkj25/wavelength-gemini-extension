@@ -1,0 +1,6 @@
+description = "Map a file, a function, or a process as a Wavelength flow"
+prompt = """
+Map the following as a Wavelength process flow: {{args}}
+
+If it is code, read the code first. Build the graph with one node for each step and one decision node for each branch, then call create_flow_from_graph. If it is a description or notes, call create_flow_from_text. Give the node and edge counts and the flow link.
+"""

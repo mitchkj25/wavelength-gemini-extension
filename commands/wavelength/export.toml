@@ -1,0 +1,4 @@
+description = "Export a Wavelength flow as Mermaid"
+prompt = """
+Find the Wavelength flow named {{args}} with search_flows, then call export_flow with format mermaid. Show the result in a mermaid code block.
+"""

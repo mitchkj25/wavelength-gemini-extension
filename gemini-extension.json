@@ -1,0 +1,11 @@
+{
+  "name": "wavelength",
+  "version": "1.0.0",
+  "description": "Turn calls, notes, and code into editable process flow diagrams in Wavelength.",
+  "contextFileName": "GEMINI.md",
+  "mcpServers": {
+    "wavelength": {
+      "httpUrl": "https://wavelengthflow.com/api/mcp"
+    }
+  }
+}
