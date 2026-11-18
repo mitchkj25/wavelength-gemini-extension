@@ -1,6 +1,6 @@
-# Wavelength extension for Gemini CLI
+# Wavelength for Gemini CLI and Antigravity
 
-Turn calls, notes, and code into editable process flow diagrams with [Wavelength](https://wavelengthflow.com), from the Gemini CLI.
+Turn calls, notes, and code into editable process flow diagrams with [Wavelength](https://wavelengthflow.com), from the Gemini CLI or Antigravity (app and CLI).
 
 ## Install
 
@@ -9,6 +9,14 @@ gemini extensions install https://github.com/mitchkj25/wavelength-gemini-extensi
 ```
 
 Start `gemini`. The first Wavelength tool call opens a browser to sign in with your Wavelength account (OAuth). A free account works. You can also run `/mcp auth wavelength`.
+
+## Install in Antigravity
+
+```bash
+agy plugin install https://github.com/mitchkj25/wavelength-gemini-extension
+```
+
+The plugin adds the hosted Wavelength MCP server (`plugin.json` and `mcp_config.json` at the repo root). The first Wavelength tool call opens a browser to sign in with your Wavelength account (OAuth). A free account works. Plugins installed in the Antigravity app also show in the CLI.
 
 ## What it adds
 
