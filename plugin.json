@@ -1,0 +1,27 @@
+{
+  "$schema": "https://antigravity.google/schemas/v1/plugin.json",
+  "name": "wavelength",
+  "displayName": "Wavelength",
+  "version": "1.0.0",
+  "description": "Turn calls, meeting notes, and code into editable process flow diagrams in Wavelength, then share or export them.",
+  "logo": "logo.png",
+  "author": {
+    "name": "Wavelength",
+    "url": "https://wavelengthflow.com"
+  },
+  "homepage": "https://wavelengthflow.com",
+  "repository": "https://github.com/mitchkj25/wavelength-gemini-extension",
+  "license": "MIT",
+  "keywords": [
+    "process flow",
+    "flowchart",
+    "diagram",
+    "meeting notes",
+    "mcp"
+  ],
+  "suggestedPrompts": [
+    "Turn these meeting notes into a process flow",
+    "Map the request flow in this repo as a Wavelength diagram",
+    "List my recent Wavelength flows"
+  ]
+}
